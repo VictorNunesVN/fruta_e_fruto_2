@@ -1,0 +1,25 @@
+.pessoas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.quem-somos__titulo {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #8d0606;
+    font-size: 3.1875rem;
+    font-family: 'Pacifico', cursive;
+    padding: 1rem;
+}
+
+.quem-somos__descricao {
+    font-size: 100;
+    font-size: 1.75rem;
+    color: #595959;
+    text-align: center;
+}
+
+.imagem {
+    border: 1px solid black;
+    border-radius: 100%;
+}
