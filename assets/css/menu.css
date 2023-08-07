@@ -1,0 +1,30 @@
+.menu {
+    margin-right: 2rem;
+}
+
+.menu-lista {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.menu-link {
+    color: #808080;
+    text-decoration: none;
+}
+
+.menu-link:hover{
+    text-decoration: underline;
+}
+
+
+.ativo{
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ativo:hover{
+    text-decoration: underline;
+}
