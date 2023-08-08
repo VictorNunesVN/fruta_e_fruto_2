@@ -1,6 +1,13 @@
 .pessoas {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: space-around;
+    text-align: center;
+}
+.pessoa {
+    display: flex;
+    flex-direction: column;
 }
 
 .quem-somos__titulo {
@@ -20,6 +27,20 @@
 }
 
 .imagem {
-    border: 1px solid black;
+    border: 2px solid #8d0606;
     border-radius: 100%;
+}
+
+.pessoa__nome {
+    color:#8d0606;
+    font-size: 1.8787rem;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.pessoa__funcao {
+    color: #595959;
+    font-size: 1.4rem;
+    font-size: 100;
 }
